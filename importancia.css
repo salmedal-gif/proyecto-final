@@ -1,0 +1,98 @@
+body{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+    background-color: #f5f5f5;
+
+    margin: 0;
+}
+
+header{
+    background-color: #5c4033;
+
+    padding: 20px;
+}
+
+header h1{
+    color: white;
+
+    text-align: center;
+
+    font-size: 50px;
+}
+
+nav ul{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    list-style: none;
+
+    padding: 0;
+}
+
+nav a{
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #d8e2c8;
+}
+
+.importancia-container{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 50px;
+
+    padding: 60px;
+
+    flex-wrap: wrap;
+}
+
+.importancia-imagen img{
+    width: 500px;
+
+    border-radius: 25px;
+
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+}
+
+.importancia-texto{
+    background-color: white;
+
+    width: 500px;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+.importancia-texto h2{
+    color: #5c4033;
+
+    font-size: 40px;
+
+    margin-bottom: 20px;
+}
+
+
+.importancia-texto p{
+    font-size: 24px;
+
+    line-height: 1.7;
+
+    color: #333;
+}
